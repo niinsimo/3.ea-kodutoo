@@ -1,0 +1,44 @@
+html, body {
+	filter: grayscale(20%);
+	animation: spin 100000s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.logo,
+#logo,
+.logo img,
+#logo-image {
+	animation: spin 10s alternate infinite;
+}
+
+html {
+	animation: adjustHue 10000s alternate infinite;
+}
+
+@keyframes adjustHue {
+	0% {filter: hue-rotate(0deg);}
+	100% {filter: hue-rotate(360deg);}
+}
+* {
+	transition: all 3s linear;
+}
+
+h1 {
+	font-size: 10px;
+}
+
+p{
+	font-size: 20px;
+}
+@keyframes fun {
+	0% {font-family: helvetica; }
+	20% { font-family: papyrus; }
+	40% { font-family: impact; }
+	60% { font-family: times; }
+	80% { font-family: monopace; }
+	100% { font-family: helvetica; }
+}
