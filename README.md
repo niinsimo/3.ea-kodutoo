@@ -1,6 +1,6 @@
 ﻿# 3. kodutöö – Chrome extension
 
-Extensioni eesmärgiks on kasutaja pea sassi ajada muutes kõikide veebilehtede css-i nii, et 
+Extensioni eesmärgiks on kasutaja segadusse ajada muutes kõikide veebilehtede css-i nii, et 
 alguses pole muutust märgata kuid vaikselt hakkab veebileht pöörlema, osad pildid asenduvad Nicolas
 Cagega, fondid ja nende suurused ja värvid muutuvad ning kui vajutad popupil nuppu "Click me" siis
 logitakse kasutaja ühest suvalisest sotsiaalmeedia lehelt välja.
