@@ -1,3 +1,6 @@
+/* 
+kood võetud videost - https://www.youtube.com/watch?v=04zfAyPD9Tk
+*/
 html, body {
 	filter: grayscale(20%);
 	animation: spin 100000s linear infinite;
